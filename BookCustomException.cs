@@ -8,10 +8,10 @@ namespace tesx3
 {
     public class BookCustomException :Exception
     {
-      public   string Massage;
-         public BookCustomException(string Massage)
+      public   string massage;
+         public BookCustomException(string massage)
         {
-            this.Massage = Massage;
+            this.massage = massage;
         }
     }
 }
